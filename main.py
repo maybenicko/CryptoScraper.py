@@ -41,7 +41,7 @@ async def check(ctx, crypto):
     embed.add_field(name="Today high", value=f"${today_high}")
     embed.add_field(name="Today low", value=f"${today_low}")
     embed.add_field(name=f"Today volume ({crypto})", value=f"{today_volume}")
-    embed.set_footer(text=f"{now} • powered by @nicko",
+    embed.set_footer(text=f"{now} • powered by @nicko_py",
                      icon_url="https://cdn.discordapp.com/attachments/799962707377127444/9909842"
                               "01664888912/bartFoto.PNG")
     await ctx.message.channel.send(embed=embed)
